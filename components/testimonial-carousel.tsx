@@ -9,7 +9,7 @@ const testimonials = [
   {
     name: "Hemant Patel",
     role: "Day Trader",
-    content: "stockmarketxperts.com helped me navigate volatile markets with their insightful analysis. Highly recommended!",
+    content: "capitalgrowww.com helped me navigate volatile markets with their insightful analysis. Highly recommended!",
     rating: 5,
     image: "/placeholder.svg?height=80&width=80",
   },
@@ -17,21 +17,21 @@ const testimonials = [
     name: "Ravi More",
     role: "Investment Advisor",
     content:
-      "I've seen significant growth in my portfolio since partnering with stockmarketxperts.com. Their expertise is unparalleled.",
+      "I've seen significant growth in my portfolio since partnering with capitalgrowww.com. Their expertise is unparalleled.",
     rating: 5,
     image: "/placeholder.svg?height=80&width=80",
   },
   {
     name: "Hanif Shaikh",
     role: "Swing Trader",
-    content: "stockmarketxperts.com's guidance has been invaluable in my trading journey. Their analysis is top-notch!",
+    content: "capitalgrowww.com's guidance has been invaluable in my trading journey. Their analysis is top-notch!",
     rating: 5,
     image: "/placeholder.svg?height=80&width=80",
   },
   {
     name: "Dinesh Kamble",
     role: "Portfolio Manager",
-    content: "Exceptional service and accurate predictions – stockmarketxperts.com truly deliver on their promises.",
+    content: "Exceptional service and accurate predictions – capitalgrowww.com truly deliver on their promises.",
     rating: 5,
     image: "/placeholder.svg?height=80&width=80",
   },
@@ -81,7 +81,7 @@ export function TestimonialCarousel() {
                   </blockquote>
 
                   <div className="flex items-center justify-center space-x-4">
-                    <div className="w-16 h-16 bg-gradient-to-br from-teal-400 to-blue-400 rounded-full flex items-center justify-center">
+                    <div className="w-16 h-16 bg-gradient-to-br from-emerald-400 to-amber-400 rounded-full flex items-center justify-center">
                       <span className="text-white font-bold text-lg">
                         {testimonial.name
                           .split(" ")
@@ -91,7 +91,7 @@ export function TestimonialCarousel() {
                     </div>
                     <div>
                       <p className="font-semibold text-white text-lg">{testimonial.name}</p>
-                      <p className="text-teal-400">{testimonial.role}</p>
+                      <p className="text-emerald-400">{testimonial.role}</p>
                     </div>
                   </div>
                 </CardContent>
@@ -120,7 +120,7 @@ export function TestimonialCarousel() {
               key={index}
               onClick={() => setCurrentIndex(index)}
               className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                index === currentIndex ? "bg-teal-400 scale-125" : "bg-slate-600 hover:bg-slate-500"
+                index === currentIndex ? "bg-emerald-400 scale-125" : "bg-slate-600 hover:bg-slate-500"
               }`}
               onMouseEnter={() => setIsAutoPlaying(false)}
               onMouseLeave={() => setIsAutoPlaying(true)}

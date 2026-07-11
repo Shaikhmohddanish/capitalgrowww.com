@@ -20,7 +20,7 @@ export function StatsSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-bold mb-6 text-white">
             Trusted by{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-400">Thousands</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-amber-400">Thousands</span>
           </h2>
           <p className="text-xl text-gray-300">Our track record speaks for itself</p>
         </div>
@@ -28,41 +28,41 @@ export function StatsSection() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="text-center group">
             <div className="mb-4 flex justify-center">
-              <div className="p-4 bg-gradient-to-br from-teal-500 to-blue-500 rounded-2xl group-hover:scale-110 transition-transform duration-300">
+              <div className="p-4 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-2xl group-hover:scale-110 transition-transform duration-300">
                 <Users className="h-8 w-8 text-white" />
               </div>
             </div>
-            <AnimatedCounter end={5000} suffix="+" />
+            <AnimatedCounter end={3} suffix=" Lac+" />
             <p className="text-gray-300 mt-2">Happy Clients</p>
           </div>
 
           <div className="text-center group">
             <div className="mb-4 flex justify-center">
-              <div className="p-4 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl group-hover:scale-110 transition-transform duration-300">
+              <div className="p-4 bg-gradient-to-br from-amber-400 to-yellow-500 rounded-2xl group-hover:scale-110 transition-transform duration-300">
                 <TrendingUp className="h-8 w-8 text-white" />
               </div>
             </div>
-            <AnimatedCounter end={95} suffix="%" />
+            <AnimatedCounter end={97} suffix="%" />
             <p className="text-gray-300 mt-2">Success Rate</p>
           </div>
 
           <div className="text-center group">
             <div className="mb-4 flex justify-center">
-              <div className="p-4 bg-gradient-to-br from-green-500 to-teal-500 rounded-2xl group-hover:scale-110 transition-transform duration-300">
+              <div className="p-4 bg-gradient-to-br from-green-500 to-emerald-500 rounded-2xl group-hover:scale-110 transition-transform duration-300">
                 <Award className="h-8 w-8 text-white" />
               </div>
             </div>
-            <AnimatedCounter end={6} suffix=" Years" />
+            <AnimatedCounter end={10} suffix=" Years" />
             <p className="text-gray-300 mt-2">Experience</p>
           </div>
 
           <div className="text-center group">
             <div className="mb-4 flex justify-center">
-              <div className="p-4 bg-gradient-to-br from-orange-500 to-red-500 rounded-2xl group-hover:scale-110 transition-transform duration-300">
+              <div className="p-4 bg-gradient-to-br from-orange-500 to-amber-500 rounded-2xl group-hover:scale-110 transition-transform duration-300">
                 <Target className="h-8 w-8 text-white" />
               </div>
             </div>
-            <AnimatedCounter end={10000} suffix="+" />
+            <AnimatedCounter end={9} suffix=" Lac+" />
             <p className="text-gray-300 mt-2">Trades Analyzed</p>
           </div>
         </div>

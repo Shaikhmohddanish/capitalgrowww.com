@@ -40,14 +40,14 @@ export function Navigation() {
             <div className="w-8 h-8 lg:w-10 lg:h-10 rounded overflow-hidden flex items-center justify-center bg-white">
               <Image
                 src="/images/logo.jpg"
-                alt="stockmarketxperts.com Logo"
+                alt="capitalgrowww.com Logo"
                 width={40}
                 height={40}
                 className="object-contain w-full h-full"
                 priority
               />
             </div>
-            <span className="font-bold text-base lg:text-xl">Stock Market Xperts</span>
+            <span className="font-bold text-base lg:text-xl">Capital Growww</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -56,8 +56,8 @@ export function Navigation() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`hover:text-blue-400 transition-colors font-medium text-sm lg:text-base px-2 py-1 rounded ${
-                  pathname === item.href ? "text-blue-400 bg-slate-700" : ""
+                className={`hover:text-amber-400 transition-colors font-medium text-sm lg:text-base px-2 py-1 rounded ${
+                  pathname === item.href ? "text-amber-400 bg-slate-700" : ""
                 }`}
                 onClick={scrollToTop}
               >
@@ -84,8 +84,8 @@ export function Navigation() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`block py-3 px-2 hover:text-blue-400 transition-colors font-medium rounded ${
-                  pathname === item.href ? "text-blue-400 bg-slate-700" : ""
+                className={`block py-3 px-2 hover:text-amber-400 transition-colors font-medium rounded ${
+                  pathname === item.href ? "text-amber-400 bg-slate-700" : ""
                 }`}
                 onClick={handleNavClick}
               >

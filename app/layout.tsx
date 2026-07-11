@@ -11,18 +11,18 @@ import { PhoneButton } from "@/components/phone-button"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Stock Market Xperts - Professional Trading Solutions",
+  title: "Capital Growww - Professional Trading Solutions",
   description: "Empowering Traders and Investors with market insights and professional trading solutions",
   keywords: "trading, intraday, stock market, investment, market analysis, trading tips",
-  authors: [{ name: "Stock Market Xperts" }],
-  creator: "Stock Market Xperts",
-  publisher: "Stock Market Xperts",
+  authors: [{ name: "Capital Growww" }],
+  creator: "Capital Growww",
+  publisher: "Capital Growww",
   robots: "index, follow",
   openGraph: {
-    title: "Stock Market Xperts - Professional Trading Solutions",
+    title: "Capital Growww - Professional Trading Solutions",
     description: "Empowering Traders and Investors with market insights and professional trading solutions",
-    url: "https://stockmarketxperts.com",
-    siteName: "stockmarketxperts.com",
+    url: "https://capitalgrowww.com",
+    siteName: "capitalgrowww.com",
     type: "website",
   },
   icons: {

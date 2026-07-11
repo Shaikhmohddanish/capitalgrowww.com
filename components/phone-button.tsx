@@ -12,8 +12,8 @@ export function PhoneButton() {
       {/* Phone Button */}
       <div className="relative">
         <Button
-          onClick={() => (window.location.href = "tel:+918976675160")}
-          className="rounded-full w-14 h-14 bg-blue-500 hover:bg-blue-600 shadow-lg flex items-center justify-center"
+          onClick={() => (window.location.href = "tel:+918425823828")}
+          className="rounded-full w-14 h-14 bg-amber-500 hover:bg-amber-600 shadow-lg flex items-center justify-center"
           onMouseEnter={() => setShowCallInfo(true)}
           onMouseLeave={() => setShowCallInfo(false)}
         >
@@ -22,13 +22,13 @@ export function PhoneButton() {
 
         {showCallInfo && (
           <div className="absolute bottom-16 left-0 bg-white text-slate-800 p-4 rounded-lg shadow-lg w-64 animate-fade-in">
-            <p className="font-medium text-blue-600 mb-2">Call us directly</p>
+            <p className="font-medium text-amber-600 mb-2">Call us directly</p>
             <p className="text-sm mb-3">Speak with our trading experts now</p>
             <Button
-              onClick={() => (window.location.href = "tel:+918976675160")}
-              className="w-full bg-blue-500 hover:bg-blue-600 text-white"
+              onClick={() => (window.location.href = "tel:+918425823828")}
+              className="w-full bg-amber-500 hover:bg-amber-600 text-white"
             >
-              8976675160
+              +91 84258 23828
             </Button>
           </div>
         )}

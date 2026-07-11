@@ -19,7 +19,7 @@ export function InteractiveCard({ icon: Icon, title, description, gradient, chil
 
   return (
     <Card
-      className={`group relative overflow-hidden bg-slate-800/50 backdrop-blur-sm border-slate-700/50 hover:border-teal-400/50 transition-all duration-500 hover:shadow-2xl hover:shadow-teal-500/20 ${isHovered ? "scale-105" : ""}`}
+      className={`group relative overflow-hidden bg-slate-800/50 backdrop-blur-sm border-slate-700/50 hover:border-emerald-400/50 transition-all duration-500 hover:shadow-2xl hover:shadow-emerald-500/20 ${isHovered ? "scale-105" : ""}`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -29,7 +29,7 @@ export function InteractiveCard({ icon: Icon, title, description, gradient, chil
       ></div>
 
       {/* Animated border */}
-      <div className="absolute inset-0 bg-gradient-to-r from-teal-400/0 via-teal-400/50 to-teal-400/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-sm"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-emerald-400/0 via-emerald-400/50 to-emerald-400/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-sm"></div>
 
       <CardContent className="relative p-6 lg:p-8">
         <div className="flex justify-center mb-6">
@@ -40,7 +40,7 @@ export function InteractiveCard({ icon: Icon, title, description, gradient, chil
           </div>
         </div>
 
-        <h3 className="text-xl lg:text-2xl font-bold mb-4 text-white group-hover:text-teal-400 transition-colors duration-300">
+        <h3 className="text-xl lg:text-2xl font-bold mb-4 text-white group-hover:text-emerald-400 transition-colors duration-300">
           {title}
         </h3>
 

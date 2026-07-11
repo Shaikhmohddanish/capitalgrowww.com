@@ -14,7 +14,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-20 lg:py-32 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-slate-950 via-slate-800 to-slate-950 text-white py-20 lg:py-32 overflow-hidden">
         <FloatingElements />
 
         {/* Animated background grid */}
@@ -30,14 +30,14 @@ export default function HomePage() {
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-6xl">
-            <div className="inline-flex items-center px-4 py-2 bg-teal-500/20 border border-teal-500/30 rounded-full mb-8">
-              <span className="text-teal-400 text-sm font-medium">🚀 #1 Trading Firm in India</span>
+            <div className="inline-flex items-center px-4 py-2 bg-emerald-500/20 border border-emerald-500/30 rounded-full mb-8">
+              <span className="text-emerald-400 text-sm font-medium">🚀 #1 Trading Firm in India</span>
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-7xl xl:text-8xl font-bold mb-8 leading-tight">
               Empowering Traders and Investors With{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-blue-400 to-purple-400 animate-gradient">
-                Stock Market Xperts
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-emerald-300 to-amber-400 animate-gradient">
+                Capital Growww
               </span>
             </h1>
 
@@ -49,8 +49,8 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row gap-6 mb-12">
               <Button
                 size="lg"
-                className="group bg-gradient-to-r from-teal-500 to-blue-500 hover:from-teal-600 hover:to-blue-600 text-white px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
-                onClick={() => (window.location.href = "tel:+918976675160")}
+                className="group bg-gradient-to-r from-emerald-500 to-amber-500 hover:from-emerald-600 hover:to-amber-600 text-white px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                onClick={() => (window.location.href = "tel:+918425823828")}
               >
                 GET STARTED
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -64,12 +64,12 @@ export default function HomePage() {
                 <span>Live Market Data</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Shield className="h-4 w-4 text-teal-400" />
+                <Shield className="h-4 w-4 text-emerald-400" />
                 <span>Bank-Grade Security</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Users className="h-4 w-4 text-blue-400" />
-                <span>5000+ Active Traders</span>
+                <Users className="h-4 w-4 text-amber-400" />
+                <span>3 Lac+ Active Traders</span>
               </div>
             </div>
           </div>
@@ -83,9 +83,9 @@ export default function HomePage() {
       <StatsSection />
 
       {/* Common Challenges Section */}
-      <section className="py-16 lg:py-24 bg-slate-900 text-white relative overflow-hidden">
+      <section className="py-16 lg:py-24 bg-slate-950 text-white relative overflow-hidden">
         <ParallaxSection speed={0.2}>
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-purple-900/20"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-emerald-900/20 to-amber-900/20"></div>
         </ParallaxSection>
 
         <div className="container mx-auto px-4 relative z-10">
@@ -107,35 +107,35 @@ export default function HomePage() {
               icon={BarChart3}
               title="Market Volatility"
               description="Stay ahead in the fast-paced world of trading despite market fluctuations with our real-time analysis."
-              gradient="from-red-500 to-orange-500"
+              gradient="from-orange-500 to-amber-500"
             />
 
             <InteractiveCard
               icon={Clock}
               title="Information Overload"
               description="Filter through vast data to focus on what truly impacts your investments with Expert Insights."
-              gradient="from-blue-500 to-purple-500"
+              gradient="from-amber-400 to-yellow-500"
             />
 
             <InteractiveCard
               icon={Target}
               title="Lack of Strategy"
               description="Craft and execute a solid trading plan to maximize your investment potential with expert guidance."
-              gradient="from-green-500 to-teal-500"
+              gradient="from-green-500 to-emerald-500"
             />
 
             <InteractiveCard
               icon={Calculator}
               title="Risk Management"
               description="Implement effective risk control techniques to safeguard your capital with advanced algorithms."
-              gradient="from-purple-500 to-pink-500"
+              gradient="from-emerald-500 to-teal-500"
             />
           </div>
         </div>
       </section>
 
       {/* Tailored Solutions Section */}
-      <section className="py-16 lg:py-24 bg-gradient-to-br from-slate-800 to-slate-900 text-white relative overflow-hidden">
+      <section className="py-16 lg:py-24 bg-gradient-to-br from-slate-800 to-slate-950 text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-30">
           <Image
             src="/placeholder.svg?height=800&width=1200"
@@ -149,7 +149,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold mb-6">
               Tailored{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-400">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-amber-400">
                 Solutions
               </span>{" "}
               for Your Success
@@ -160,7 +160,7 @@ export default function HomePage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card className="group bg-slate-800/80 backdrop-blur-sm border-slate-700/50 hover:border-teal-400/50 transition-all duration-500 hover:shadow-2xl hover:shadow-teal-500/20 overflow-hidden">
+            <Card className="group bg-slate-800/80 backdrop-blur-sm border-slate-700/50 hover:border-emerald-400/50 transition-all duration-500 hover:shadow-2xl hover:shadow-emerald-500/20 overflow-hidden">
               <div className="relative overflow-hidden">
                 <Image
                   src="/images/Research Insights.jpeg?height=400&width=400"
@@ -169,13 +169,13 @@ export default function HomePage() {
                   height={400}
                   className="w-full aspect-square object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent"></div>
-                <div className="absolute top-4 right-4 bg-teal-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 to-transparent"></div>
+                <div className="absolute top-4 right-4 bg-emerald-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
                   Expert Analysis
                 </div>
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-4 text-white group-hover:text-teal-400 transition-colors">
+                <h3 className="text-xl font-bold mb-4 text-white group-hover:text-emerald-400 transition-colors">
                   Research Insights
                 </h3>
                 <p className="text-gray-300 mb-4">
@@ -183,15 +183,15 @@ export default function HomePage() {
                 </p>
                 <Button
                   variant="ghost"
-                  className="text-teal-400 hover:text-black p-0"
-                  onClick={() => (window.location.href = "tel:+918976675160")}
+                  className="text-emerald-400 hover:text-black p-0"
+                  onClick={() => (window.location.href = "tel:+918425823828")}
                 >
                   Learn More <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </CardContent>
             </Card>
 
-            <Card className="group bg-slate-800/80 backdrop-blur-sm border-slate-700/50 hover:border-teal-400/50 transition-all duration-500 hover:shadow-2xl hover:shadow-teal-500/20 overflow-hidden">
+            <Card className="group bg-slate-800/80 backdrop-blur-sm border-slate-700/50 hover:border-emerald-400/50 transition-all duration-500 hover:shadow-2xl hover:shadow-emerald-500/20 overflow-hidden">
               <div className="relative overflow-hidden">
                 <Image
                   src="/images/portfoliomanagementservice.jpg?height=400&width=400"
@@ -200,13 +200,13 @@ export default function HomePage() {
                   height={400}
                   className="w-full aspect-square object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent"></div>
-                <div className="absolute top-4 right-4 bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 to-transparent"></div>
+                <div className="absolute top-4 right-4 bg-amber-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
                   Expert Managed
                 </div>
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-4 text-white group-hover:text-teal-400 transition-colors">
+                <h3 className="text-xl font-bold mb-4 text-white group-hover:text-emerald-400 transition-colors">
                   Portfolio Management
                 </h3>
                 <p className="text-gray-300 mb-4">
@@ -214,15 +214,15 @@ export default function HomePage() {
                 </p>
                 <Button
                   variant="ghost"
-                  className="text-teal-400 hover:text-black p-0"
-                  onClick={() => (window.location.href = "tel:+918976675160")}
+                  className="text-emerald-400 hover:text-black p-0"
+                  onClick={() => (window.location.href = "tel:+918425823828")}
                 >
                   Learn More <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </CardContent>
             </Card>
 
-            <Card className="group bg-slate-800/80 backdrop-blur-sm border-slate-700/50 hover:border-teal-400/50 transition-all duration-500 hover:shadow-2xl hover:shadow-teal-500/20 overflow-hidden md:col-span-3 lg:col-span-1">
+            <Card className="group bg-slate-800/80 backdrop-blur-sm border-slate-700/50 hover:border-emerald-400/50 transition-all duration-500 hover:shadow-2xl hover:shadow-emerald-500/20 overflow-hidden md:col-span-3 lg:col-span-1">
               <div className="relative overflow-hidden">
                 <Image
                   src="/images/Risk Assessment.jpg?height=400&width=400"
@@ -231,13 +231,13 @@ export default function HomePage() {
                   height={400}
                   className="w-full aspect-square object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent"></div>
-                <div className="absolute top-4 right-4 bg-purple-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 to-transparent"></div>
+                <div className="absolute top-4 right-4 bg-amber-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
                   Real-time
                 </div>
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-4 text-white group-hover:text-teal-400 transition-colors">
+                <h3 className="text-xl font-bold mb-4 text-white group-hover:text-emerald-400 transition-colors">
                   Risk Assessment
                 </h3>
                 <p className="text-gray-300 mb-4">
@@ -245,8 +245,8 @@ export default function HomePage() {
                 </p>
                 <Button
                   variant="ghost"
-                  className="text-teal-400 hover:text-black p-0"
-                  onClick={() => (window.location.href = "tel:+918976675160")}
+                  className="text-emerald-400 hover:text-black p-0"
+                  onClick={() => (window.location.href = "tel:+918425823828")}
                 >
                   Learn More <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
@@ -261,7 +261,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
-              <div className="absolute -inset-4 bg-gradient-to-r from-teal-500 to-blue-500 rounded-2xl blur opacity-20"></div>
+              <div className="absolute -inset-4 bg-gradient-to-r from-emerald-500 to-amber-500 rounded-2xl blur opacity-20"></div>
               <Image
                 src="/images/Journey To excellence.jpg?height=500&width=500"
                 alt="Our Journey"
@@ -272,13 +272,13 @@ export default function HomePage() {
             </div>
 
             <div>
-              <div className="inline-flex items-center px-4 py-2 bg-teal-500/20 border border-teal-500/30 rounded-full mb-6">
-                <span className="text-teal-400 text-sm font-medium">Since 2018</span>
+              <div className="inline-flex items-center px-4 py-2 bg-emerald-500/20 border border-emerald-500/30 rounded-full mb-6">
+                <span className="text-emerald-400 text-sm font-medium">Since 2018</span>
               </div>
 
               <h2 className="text-3xl lg:text-5xl font-bold mb-6">
                 Our Journey to{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-400">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-amber-400">
                   Excellence
                 </span>
               </h2>
@@ -295,23 +295,23 @@ export default function HomePage() {
 
               <div className="space-y-4 mb-8">
                 <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-teal-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
                   <span className="text-gray-300">Expert market analysis</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-amber-400 rounded-full"></div>
                   <span className="text-gray-300">24/7 market monitoring</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-purple-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-amber-400 rounded-full"></div>
                   <span className="text-gray-300">Expert trader support</span>
                 </div>
               </div>
 
               <Button
                 variant="outline"
-                className="group border-2 border-teal-400 text-black hover:bg-teal-400 hover:text-slate-900 transition-all duration-300"
-                onClick={() => (window.location.href = "tel:+918976675160")}
+                className="group border-2 border-emerald-400 text-black hover:bg-emerald-400 hover:text-slate-950 transition-all duration-300"
+                onClick={() => (window.location.href = "tel:+918425823828")}
               >
                 READ MORE
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
@@ -322,7 +322,7 @@ export default function HomePage() {
       </section>
 
       {/* Client Testimonials */}
-      <section className="py-16 lg:py-24 bg-gradient-to-br from-slate-900 to-slate-800 text-white">
+      <section className="py-16 lg:py-24 bg-gradient-to-br from-slate-950 to-slate-800 text-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold mb-6">
@@ -342,13 +342,13 @@ export default function HomePage() {
       </section>
 
       {/* Transform Trading Experience CTA */}
-      <section className="py-16 lg:py-24 bg-gradient-to-r from-teal-500 via-blue-500 to-purple-500 text-white relative overflow-hidden">
+      <section className="py-16 lg:py-24 bg-gradient-to-r from-emerald-600 via-emerald-500 to-amber-500 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
         <FloatingElements />
 
         <div className="container mx-auto px-4 text-center relative z-10">
           <div className="max-w-4xl mx-auto">
-            <p className="text-lg mb-4 text-teal-100">READY TO ENHANCE YOUR TRADING?</p>
+            <p className="text-lg mb-4 text-emerald-100">READY TO ENHANCE YOUR TRADING?</p>
 
             <h2 className="text-3xl lg:text-6xl font-bold mb-8 leading-tight">
               Transform Your Trading Experience Today
@@ -361,8 +361,8 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
               <Button
                 size="lg"
-                className="group bg-white text-slate-900 hover:bg-gray-100 px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
-                onClick={() => (window.location.href = "tel:+918976675160")}
+                className="group bg-white text-slate-950 hover:bg-gray-100 px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                onClick={() => (window.location.href = "tel:+918425823828")}
               >
                 GET STARTED FREE
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -372,7 +372,7 @@ export default function HomePage() {
                 size="lg"
                 variant="outline"
                 className="border-2 border-white text-black hover:bg-white/10 backdrop-blur-sm px-8 py-4 text-lg font-semibold rounded-xl transition-all duration-300"
-                onClick={() => (window.location.href = "tel:+918976675160")}
+                onClick={() => (window.location.href = "tel:+918425823828")}
               >
                 <Phone className="mr-2 h-5 w-5" />
                 CALL NOW
@@ -385,7 +385,7 @@ export default function HomePage() {
                 <span className="text-sm">Available Now</span>
               </div>
               <div className="w-px h-4 bg-white/30"></div>
-              <span className="text-lg font-bold">8976675160</span>
+              <span className="text-lg font-bold">+91 84258 23828</span>
             </div>
           </div>
         </div>

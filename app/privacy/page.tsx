@@ -1,6 +1,6 @@
 export default function PrivacyPage() {
   return (
-    <div className="min-h-screen bg-slate-900 text-white">
+    <div className="min-h-screen bg-slate-950 text-white">
       <div className="container mx-auto px-4 py-20">
         <h1 className="text-4xl lg:text-6xl font-bold mb-8 text-center">Privacy Policy</h1>
 
@@ -8,7 +8,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-2xl font-bold mb-4 text-white">1. Information We Collect</h2>
             <p className="mb-4">
-              Stock Market Xperts collects information to provide better services to our users. We collect
+              Capital Growww collects information to provide better services to our users. We collect
               information in the following ways:
             </p>
             <ul className="list-disc list-inside space-y-2">
@@ -121,11 +121,11 @@ export default function PrivacyPage() {
             <p>
               If you have any questions about this privacy policy, please contact us at:
               <br />
-              Email: info@stockmarketxperts.com
+              Email: info@capitalgrowww.com
               <br />
-              Phone: 8976675160
+              Phone: +91 84258 23828
               <br />
-              Address: Stock Market Xperts 403 Neptune village Otswald world Thane 400612
+              Address: Global IT Center, Sector 11, CBD Belapur, Navi Mumbai, Maharashtra 400614
             </p>
           </section>
 

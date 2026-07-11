@@ -8,7 +8,7 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">About Us</h3>
             <p className="text-gray-300">
-              Stock Market Xperts provides premium market research solutions, empowering traders and investors globally
+              Capital Growww provides premium market research solutions, empowering traders and investors globally
               with cutting-edge analysis and insights.
             </p>
           </div>
@@ -16,25 +16,25 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Useful Links</h3>
             <div className="space-y-2">
-              <Link href="/" className="block text-teal-400 hover:text-teal-300 transition-colors">
+              <Link href="/" className="block text-emerald-400 hover:text-emerald-300 transition-colors">
                 Home
               </Link>
-              <Link href="/services" className="block text-teal-400 hover:text-teal-300 transition-colors">
+              <Link href="/services" className="block text-emerald-400 hover:text-emerald-300 transition-colors">
                 Services
               </Link>
-              <Link href="/packages" className="block text-teal-400 hover:text-teal-300 transition-colors">
+              <Link href="/packages" className="block text-emerald-400 hover:text-emerald-300 transition-colors">
                 Packages
               </Link>
-              <Link href="/about" className="block text-teal-400 hover:text-teal-300 transition-colors">
+              <Link href="/about" className="block text-emerald-400 hover:text-emerald-300 transition-colors">
                 About
               </Link>
-              <Link href="/contact" className="block text-teal-400 hover:text-teal-300 transition-colors">
+              <Link href="/contact" className="block text-emerald-400 hover:text-emerald-300 transition-colors">
                 Contact
               </Link>
-              <Link href="/terms" className="block text-teal-400 hover:text-teal-300 transition-colors">
+              <Link href="/terms" className="block text-emerald-400 hover:text-emerald-300 transition-colors">
                 Terms & Conditions
               </Link>
-              <Link href="/privacy" className="block text-teal-400 hover:text-teal-300 transition-colors">
+              <Link href="/privacy" className="block text-emerald-400 hover:text-emerald-300 transition-colors">
                 Privacy Policy
               </Link>
             </div>
@@ -43,15 +43,15 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <div className="space-y-2 text-gray-300">
-              <p>Stock Market Xperts 403 Neptune village Otswald world Thane 400612</p>
-              <p className="mt-3">info@stockmarketxperts.com</p>
-              <p>8976675160</p>
+              <p>Global IT Center, Sector 11, CBD Belapur, Navi Mumbai, Maharashtra 400614</p>
+              <p className="mt-3">info@capitalgrowww.com</p>
+              <p>+91 84258 23828</p>
             </div>
           </div>
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>Copyright © 2025 stockmarketxperts.com | All Rights Reserved</p>
+          <p>Copyright © 2025 capitalgrowww.com | All Rights Reserved</p>
           <div className="mt-4 text-sm">
             <p><strong>Legal</strong></p>
             <p>This Website is NOT a part of Meta or Meta Platforms, Inc. Additionally, this site is NOT endorsed by Meta in any way</p>
