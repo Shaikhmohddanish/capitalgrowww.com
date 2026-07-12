@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(npm run *)",
-      "Bash(npm install *)"
+      "Bash(npm install *)",
+      "Bash(ls /Applications | grep -iE \"chrome|chromium|edge|brave\" ; ls ~/Applications 2>/dev/null | grep -iE \"chrome|chromium\")",
+      "Read(//Applications/**)",
+      "Read(//Users/admin/Applications/**)"
     ]
   }
 }

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/images/Fevicon.png", type: "image/png" }
+      { url: "/logo.jpeg", type: "image/jpeg" }
     ],
   },
     generator: 'v0.dev'
@@ -41,7 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/images/Fevicon.png" type="image/png" />
+        <link rel="icon" href="/logo.jpeg" type="image/jpeg" />
       </head>
       <body className={`${inter.className} overflow-x-hidden`}>
         <DisclaimerBanner />

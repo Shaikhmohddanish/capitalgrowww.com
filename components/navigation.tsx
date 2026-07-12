@@ -37,13 +37,13 @@ export function Navigation() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link href="/" className="flex items-center space-x-2" onClick={scrollToTop}>
-            <div className="w-8 h-8 lg:w-10 lg:h-10 rounded overflow-hidden flex items-center justify-center bg-white">
+            <div className="w-10 h-10 lg:w-12 lg:h-12 rounded-full overflow-hidden flex items-center justify-center">
               <Image
-                src="/images/logo.jpg"
+                src="/logo.jpeg"
                 alt="capitalgrowww.com Logo"
-                width={40}
-                height={40}
-                className="object-contain w-full h-full"
+                width={48}
+                height={48}
+                className="object-cover w-full h-full scale-110"
                 priority
               />
             </div>
