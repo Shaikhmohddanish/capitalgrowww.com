@@ -35,7 +35,7 @@ export default function PackagesPage() {
               <CardContent className="p-6">
                 <div className="text-center mb-6">
                   <span className="text-4xl font-bold text-emerald-400">₹</span>
-                  <span className="text-5xl font-bold text-white">20,999</span>
+                  <span className="text-5xl font-bold text-white">75,000</span>
                   <p className="text-gray-400 mt-2">Monthly</p>
                 </div>
 
@@ -92,7 +92,7 @@ export default function PackagesPage() {
               <CardContent className="p-6">
                 <div className="text-center mb-6">
                   <span className="text-4xl font-bold text-emerald-400">₹</span>
-                  <span className="text-5xl font-bold text-white">75,000</span>
+                  <span className="text-5xl font-bold text-white">2,00,000</span>
                   <p className="text-gray-400 mt-2">Monthly</p>
                 </div>
 
@@ -152,7 +152,7 @@ export default function PackagesPage() {
               <CardContent className="p-6">
                 <div className="text-center mb-6">
                   <span className="text-4xl font-bold text-emerald-400">₹</span>
-                  <span className="text-5xl font-bold text-white">2,00,000</span>
+                  <span className="text-5xl font-bold text-white">5,00,000</span>
                   <p className="text-gray-400 mt-2">Monthly</p>
                 </div>
 
@@ -201,8 +201,8 @@ export default function PackagesPage() {
           {/* Additional Pro Packages */}
           <div className="mt-16">
             <h3 className="text-2xl font-bold text-center mb-10">Advanced Pro Packages</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {/* Pro Plus 5,00,000 */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              {/* Pro Plus 10,00,000 */}
               <Card className="bg-gradient-to-b from-slate-800 to-slate-950 border-slate-700 hover:border-emerald-400 transition-all duration-300">
                 <CardHeader className="bg-slate-700 text-center py-4">
                   <CardTitle className="text-xl text-white">Pro Plus</CardTitle>
@@ -211,7 +211,7 @@ export default function PackagesPage() {
                 <CardContent className="p-6">
                   <div className="text-center mb-4">
                     <span className="text-3xl font-bold text-emerald-400">₹</span>
-                    <span className="text-4xl font-bold text-white">5,00,000</span>
+                    <span className="text-4xl font-bold text-white">10,00,000</span>
                     <p className="text-gray-400 mt-1">Monthly</p>
                   </div>
 
@@ -246,7 +246,7 @@ export default function PackagesPage() {
                 </CardContent>
               </Card>
 
-              {/* Pro Premium 10,00,000 */}
+              {/* Pro Premium 14,00,000 */}
               <Card className="bg-gradient-to-b from-slate-800 to-slate-950 border-slate-700 hover:border-emerald-400 transition-all duration-300">
                 <CardHeader className="bg-slate-700 text-center py-4">
                   <CardTitle className="text-xl text-white">Pro Premium</CardTitle>
@@ -255,7 +255,7 @@ export default function PackagesPage() {
                 <CardContent className="p-6">
                   <div className="text-center mb-4">
                     <span className="text-3xl font-bold text-emerald-400">₹</span>
-                    <span className="text-4xl font-bold text-white">10,00,000</span>
+                    <span className="text-4xl font-bold text-white">14,00,000</span>
                     <p className="text-gray-400 mt-1">Monthly</p>
                   </div>
 
@@ -290,49 +290,6 @@ export default function PackagesPage() {
                 </CardContent>
               </Card>
 
-              {/* Pro Elite 14,00,000 */}
-              <Card className="bg-gradient-to-b from-slate-800 to-slate-950 border-slate-700 hover:border-emerald-400 transition-all duration-300">
-                <CardHeader className="bg-slate-700 text-center py-4">
-                  <CardTitle className="text-xl text-white">Pro Elite</CardTitle>
-                  <p className="text-sm text-gray-300">(Exclusive of GST)</p>
-                </CardHeader>
-                <CardContent className="p-6">
-                  <div className="text-center mb-4">
-                    <span className="text-3xl font-bold text-emerald-400">₹</span>
-                    <span className="text-4xl font-bold text-white">14,00,000</span>
-                    <p className="text-gray-400 mt-1">Monthly</p>
-                  </div>
-
-                  <div className="space-y-3 text-sm">
-                    <div className="flex items-start">
-                      <Check className="h-4 w-4 text-emerald-400 mr-2 flex-shrink-0 mt-1" />
-                      <span className="text-gray-300">Get upto 1 to 2 tips per day</span>
-                    </div>
-                    <div className="flex items-start">
-                      <Check className="h-4 w-4 text-emerald-400 mr-2 flex-shrink-0 mt-1" />
-                      <span className="text-gray-300">Get proper target & stop-loss</span>
-                    </div>
-                    <div className="flex items-start">
-                      <Check className="h-4 w-4 text-emerald-400 mr-2 flex-shrink-0 mt-1" />
-                      <span className="text-gray-300">Profit target- Rs. 25,000 to Rs. 30,000</span>
-                    </div>
-                    <div className="flex items-start">
-                      <Check className="h-4 w-4 text-emerald-400 mr-2 flex-shrink-0 mt-1" />
-                      <span className="text-gray-300 break-words">Eligibility criteria Capital above Rs. 300,000</span>
-                    </div>
-                    <div className="flex items-start">
-                      <Check className="h-4 w-4 text-emerald-400 mr-2 flex-shrink-0 mt-1" />
-                      <span className="text-gray-300">Accuracy upto 90% above</span>
-                    </div>
-                  </div>
-
-                  <div className="mt-6">
-                    <Button className="w-full bg-green-500 hover:bg-green-600 text-white text-sm py-2" onClick={() => (window.location.href = "tel:+918425823828")}>
-                      Click Here
-                    </Button>
-                  </div>
-                </CardContent>
-              </Card>
             </div>
           </div>
         </div>
